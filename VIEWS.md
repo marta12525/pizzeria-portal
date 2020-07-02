@@ -40,7 +40,7 @@
   - numer stolika (edytowalny)
   - menu produktów
   - opcje wybranego produktu
-  - zamówienie (zamówione profukty z opcjami i cena)
+  - zamówienie (zamówione produkty z opcjami i cena)
   - kwotę zamówienia
 - `/waiter/order/:id`
   - jak powyższa
@@ -49,7 +49,7 @@
 
 - `/kitchen`
   - wyświetla listę zamówień w kolejnosci ich złożenia
-  - lista musi zaiwrać:
+  - lista musi zawierać:
     - numer stolika (lub zamówienia zdalnego)
     - pełne informacje dot. zamówionych dań
   - na liście musi być możliwość oznaczenia zamówienia jako zrealizowane

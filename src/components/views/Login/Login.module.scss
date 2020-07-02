@@ -3,3 +3,13 @@
 .component {
   padding: $base-size;
 }
+
+.link {
+  color: inherit;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}

@@ -3,3 +3,11 @@
 .component {
   padding: $base-size;
 }
+
+.checkbox {
+  color: inherit;
+
+  :checked {
+    color: #2B4C6F;
+  }
+}
