@@ -27,7 +27,6 @@ const theme = createMuiTheme({
 });
 
 function App() {
-  console.log(process.env.PUBLIC_URL);
   return (
     <Provider store={store}>
       <BrowserRouter basename={'/'}>
